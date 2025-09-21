@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Ich habe meinen Pass verloren.",
+"Ich habe meine Fahrkarte vergessen.",
+"Mein Gepäck ist verloren gegangen.",
+"Ich möchte mich über den schlechten Service beschweren.",
+"Mein Fernseher ist kaputt.",
+"Mein Bett ist unbequem.",
+"Mein Zimmer ist schmutzig.",
+"Die Mitarbeiter sind unhöflich.",
+"Meine Tür ist kaputt.",
+"Es gibt kein WLAN im Hotelzimmer."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 

@@ -149,7 +149,7 @@ function updateHiddenDisplay() {
 }
 
 function createLetterButtons(){
-  const allLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZàâäéèêôöù";
+  const allLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZäöüß";
   lettersDiv.innerHTML="";
   for(let l of allLetters){
     const btn=document.createElement("button");
@@ -261,3 +261,4 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+

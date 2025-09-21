@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Ich verstehe mich gut mit meiner Mutter.",
+"Ich verstehe mich nicht so gut mit meinem Bruder.",
+"Ich streite mich oft mit meiner Schwester.",
+"Meine Tante streitet sich mit meinen Cousinen.",
+"Mein Halbbruder streitet sich jeden Tag mit mir.",
+"Wir streiten uns nie.",
+"Meine Eltern haben immer Zeit für mich.",
+"Mein Opa hat nie Zeit für mich.",
+"Mein Vater hat viel Geduld.",
+"Meine Stiefmutter hat keine Geduld."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 

@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Ich esse zum Frühstück gerne Brot mit Honig.",
+"Mein Lieblingsgericht ist Wurst mit Gemüse.",
+"Hast du Hunger oder Durst?",
+"Die Mittagspause ist meine Lieblingszeit, weil ich Obst essen kann.",
+"Zum Abendessen koche ich oft Fisch mit Gemüse.",
+"Als Vorspeise möchte ich etwas Süßes probieren.",
+"Das Mittagessen ist die wichtigste Mahlzeit des Tages.",
+"Der Nachtisch nach dem Hauptgericht ist oft Käse oder Obst.",
+"Ich finde, das Frühstück ist besser als das Abendessen.",
+"Während der Mittagspause esse ich Brot und trinke Wasser."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 

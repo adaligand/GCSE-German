@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Ich habe mir den Arm gebrochen.",
+"Mein Rücken tut weh.",
+"Seit drei Tagen habe ich starke Kopfschmerzen.",
+"Der Bauch tut mir weh, weil ich zu viel gegessen habe.",
+"Ich kann meinen Finger nicht bewegen, er tut sehr weh.",
+"Ich habe mir den Hals verbrannt.",
+"Ich fühle mich schwach und muss im Bett bleiben.",
+"Sie müssen sich ausruhen und viel Wasser trinken.",
+"Ich habe mir den Fuß verstaucht, als ich gefallen bin.",
+"Mein Kopf tut weh, weil ich gestern zu lange gearbeitet habe."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 

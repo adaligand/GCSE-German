@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Die Reservierung ist für meine Familie.",
+"Wir haben ein Doppelzimmer mit WLAN reserviert.",
+"Ich möchte für drei Nächte bleiben.",
+"Ich komme am Freitag um 15 Uhr an.",
+"Ich fahre am Montag ab.",
+"Die Reservierung ist für meine Kollegen.",
+"Wir haben ein Einzelzimmer mit Frühstück gebucht.",
+"Ich möchte mit Kreditkarte bezahlen.",
+"Die Reservierung ist für eine Woche.",
+"Wir haben online gebucht."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 

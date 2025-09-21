@@ -59,11 +59,17 @@ h1,h2 { text-align:center; margin:0; }
 
 <script>
 const sentences = [
-  "Tést ùn",       // French
-  "Tést deux",      // Spanish
-  "Tést trois",          // German
-  "Tést quâtrè",                 // English
-    "Javascript Game"
+"Die Fahrkarte ist einfach zu kaufen.",
+"Eine Fahrkarte hin und zurück kostet mehr.",
+"Der Zug wird bald abfahren.",
+"Er wird um 18 Uhr ankommen.",
+"Das Hotel ist in der Nähe.",
+"Gehen Sie einfach geradeaus und nehmen Sie die erste Straße links.",
+"Der Markt ist auf der rechten Seite.",
+"Die Fahrkarten sind nicht billig, aber sie sind praktisch.",
+"Ich nehme es, weil es nicht zu teuer ist.",
+"Es ist einfach, den Weg zum Bahnhof zu finden."
+
 ];
 
 let currentSentence="", hidden=[], currentPlayer=1, wheelValue=0, scores={1:0,2:0}, spinning=false, canSpin=true;
@@ -261,4 +267,5 @@ document.addEventListener("keydown", e => {
 </script>
 </body>
 </html>
+
 
